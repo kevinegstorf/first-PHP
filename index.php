@@ -1,29 +1,7 @@
-<html>
-<head>
-	<title><?php echo "Shirts 4 Mike"; ?></title>
-	<link rel="stylesheet" href="css/style.css" type="text/css">
-	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Oswald:400,700" type="text/css">
-	<link rel="shortcut icon" href="favicon.ico">
-</head>
-<body>
+<?php 
+$pageTitle = "Unique T-shirts designed by a frog";
 
-	<div class="header">
-
-		<div class="wrapper">
-
-			<h1 class="branding-title"><a href="./">Shirts 4 Mike</a></h1>
-
-			<ul class="nav">
-				<li class="shirts"><a href="#">Shirts</a></li>
-				<li class="contact"><a href="#">Contact</a></li>
-				<li class="cart"><a href="#">Shopping Cart</a></li>
-			</ul>
-
-		</div>
-
-	</div>
-
-	<div id="content">
+include('INC/header.php'); ?>
 
 		<div class="section banner">
 
@@ -73,22 +51,4 @@
 
 		</div>
 
-	</div>
-
-	<div class="footer">
-
-		<div class="wrapper">
-
-			<ul>		
-				<li><a href="http://twitter.com/treehouse">Twitter</a></li>
-				<li><a href="https://www.facebook.com/TeamTreehouse">Facebook</a></li>
-			</ul>
-
-			<p>&copy;<?php echo date('Y'); ?> Shirts 4 Mike</p>
-
-		</div>
-	
-	</div>
-
-</body>
-</html>
+	<?php include('inc/footer.php'); ?>
