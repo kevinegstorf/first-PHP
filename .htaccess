@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteRule ^shirts/$ /shirts/shirts.php
+RewriteRule ^shirts/([0-9]+)/$ /shirts/shirt.php?id=$1
